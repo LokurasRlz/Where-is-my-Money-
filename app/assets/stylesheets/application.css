@@ -12,4 +12,48 @@
  *
  *= require_tree .
  *= require_self
+  *= require font-awesome
  */
+.logo {
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 70%;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 10%;
+  color: rgb(49, 122, 182);
+}
+
+.slogan {
+  font-size: 1.5rem;
+  margin-top: 5%;
+  color: black;
+}
+
+.logomob {
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10%;
+}
+
+.titlemob {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-top: 10%;
+  color: rgb(49, 122, 182);
+}
+
+.sloganmob {
+  font-size: 0.8rem;
+  margin-top: 5%;
+  color: black;
+}
